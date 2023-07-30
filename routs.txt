@@ -1,0 +1,28 @@
+support link
+https://github.com/100xDevs-hkirat/Week-5-with-axios-and-backend/tree/master/server
+
+
+**Goal of this application is to implement simple Room chat,Private chat
+
+// Three files 
+1. db - contain database schema
+2. middleware - contain authentication logic
+3. routes - contain logic of all routes
+
+
+
+// routes  
+1.signup - 
+2.login -
+3.contacts  
+4.JoinedRooms - displays all rooms that you currantly joined
+5.JoinRoom - joining existing rooms
+6.CreateRoom - creating yourown room 
+
+
+// db
+it has two models
+1.User - username, password, uniqueId,joinedRooms(RoomsUniqueid)
+2.Rooms - uniquename,uniqueId,joindedusers(list of userids)
+
+
